@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import "../App.css";
@@ -35,7 +35,6 @@ const expositoresright = [
 ];
 
 const Expositores = () => {
-    let even = false;
     return (
         <div className='body expositores-container' id="expositores">
             <Card variant='outlined' style={{backgroundColor: "#3b4a53", margin: "2rem"}}>
