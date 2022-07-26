@@ -18,7 +18,7 @@ const Descripcion = () => {
                 <p className='desc-titulo'>
                     WORKSHOP
                 </p>
-                <p className='desc-titulo'>
+                <p className='desc-titulo' id="descripcion">
                     "DESAFÍOS Y OPORTUNIDADES DEL DESARROLLO DE SMART CITY EN CHILE”
                 </p>
                 <hr style={linestyle}/>

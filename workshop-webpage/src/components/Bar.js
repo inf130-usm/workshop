@@ -1,20 +1,22 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import "../App.css";
 
-const Bar = (props) => {
-
+const Bar = () => {
     return (
-        <div className='navbar'>
+        <div className='navbar' id='header'>
             <div className='navbar-logos'>
                 <img className="navbar-cap4city" src={"/logo-cap4city.png"} alt="Logo Cap4city"/>
                 <img className="navbar-erasmus" src={"/logo-erasmus.png"} alt="Logo Erasmus"/>
             </div>
             <div className='navbar-menu'>
-                <label className='menu-link'>Inicio</label>
-                <label className='menu-link'>Descripción</label>
-                <label className='menu-link'>Programa</label>
-                <label className='menu-link'>Expositores</label>
-                <label className='menu-link'>Contacto</label>  
+                <a className='menu-link' href="/">Inicio</a>
+                <a className='menu-link' href="#descripcion">Descripción</a>
+                <a className='menu-link' href="#programa">Programa</a>
+                <a className='menu-link' href="#expositores">Expositores</a>
+                <a className='menu-link' href="#contacto">Contacto</a>
+                <div className='button-container'>
+                    <a className='button' href="https://forms.office.com/r/siNs6wpKYd" target="_blank" rel="noreferrer">INSCRÍBETE</a>  
+                </div>
             </div>
         </div>
     );

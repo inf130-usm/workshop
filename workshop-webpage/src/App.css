@@ -1,13 +1,16 @@
 .App {
   text-align: center;
+  background-color: #f8f8f8;
 }
 
 .navbar{
-  min-height: 15vh;
+  height: 8vh;
   background-color: #3b4a53;
   display: flex;
   padding-left: 2rem;
   padding-right: 2rem;
+  position: sticky;
+  top: 0px;
 }
 
 .navbar-logos{
@@ -30,6 +33,31 @@
 .navbar-menu{
   display: flex;
   align-items:center;
+}
+
+.button-container{
+  height: 100%;
+  display: flex;
+  align-items:center;
+  background-color: #ff4f56;
+  color:white;
+}
+
+.button-container:hover{
+  cursor: pointer;
+  background-color: #626e75;
+}
+
+.button-container:hover a{
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.button{
+  font-size: large;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .menu-link{
@@ -95,13 +123,13 @@
   justify-content: center;
 }
 
+.place:hover{
+  border-bottom: 3px solid #ff4f56;
+}
+
 a {
   text-decoration: none;
   color: white;
-}
-
-a:hover{
-  cursor: pointer;
 }
 
 .schedule-container{
@@ -125,6 +153,9 @@ a:hover{
   margin-left: 2rem;
   margin-right: 2rem;
   color:white;
+}
+
+.flex{
   display: flex;
   justify-content: space-between;
 }
@@ -168,4 +199,75 @@ a:hover{
 
 .vline{
   border-left: 3px solid white;
+}
+
+.table-caption{
+  text-align: end;
+}
+
+.expositores-container{
+  background-color: #ff4f56;
+  display:inline-block;
+  margin-top: -1rem;
+}
+
+.exp-picture-container{
+  width:150px;
+  height:150px;
+  background-size:cover;
+  background-position: top;
+  border-radius: 50%;
+}
+
+.exp-details{
+  margin-top: auto;
+  margin-bottom: auto;
+  width:60%;
+}
+
+.contact{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-title{
+  display: flex;
+  align-items:center;
+  font-size: x-large;
+}
+
+.contact-element{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-container{
+  text-align: center;
+}
+
+.footer-logos{
+  width: 100%;
+}
+
+.prefooter-container{
+  background-color: #3b4a53;
+  min-height: 10vh;
+  display: flex;
+  align-items:center;
+  margin-top: -4px;
+}
+
+.backtotop{
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.postcontacto{
+  height: 5vh;
 }

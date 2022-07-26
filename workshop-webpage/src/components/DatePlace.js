@@ -5,7 +5,7 @@ import "../App.css";
 
 const DatePlace = () => {
     return (
-        <div className='dateplace-container'>
+        <div className='dateplace-container' id="fechalugar">
             <div className='body dateplace-content'>
                 <div className='dateplace'>
                     <EventIcon/>
@@ -19,7 +19,7 @@ const DatePlace = () => {
                     </label>
                 </div>
                 <div className='dateplace'>
-                    <a href="https://goo.gl/maps/QtyRSHNTgaGS5oEr9" target="_blank" rel="noreferrer">
+                    <a className='place' href="https://goo.gl/maps/QtyRSHNTgaGS5oEr9" target="_blank" rel="noreferrer">
                         <PlaceIcon/>&nbsp;UTFSM Campus San Joaquín
                     </a>
                 </div>
