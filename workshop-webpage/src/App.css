@@ -33,6 +33,19 @@
 .navbar-menu{
   display: flex;
   align-items:center;
+  visibility: visible;
+}
+
+.menubutton{
+  visibility: hidden;
+}
+
+.menumobile{
+  visibility: hidden;
+}
+
+.buttonmenu{
+  color:white;
 }
 
 .button-container{
@@ -270,4 +283,97 @@ a {
 
 .postcontacto{
   height: 5vh;
+}
+
+@media only screen and (max-width: 600px){
+  .navbar{
+    display:flex;
+    padding-top: 1rem;
+  }
+
+  .navbar-cap4city{
+    width: 50%;
+  }
+
+  .navbar-erasmus{
+    width: 30%;
+  }
+
+  .navbar-menu{
+    display: none;
+    visibility: hidden;
+  }
+
+  .menubutton{
+    visibility: visible;
+  }
+
+  .menumobile{
+    visibility: visible;
+  }
+
+  .menu-link{
+    margin-right: 0.5rem;
+    color: black;
+  }
+
+  .menu-link:hover{
+    border-bottom: 0;
+  }
+
+  a {
+    color: black;
+  }
+
+  .dateplace-content{
+    display: block;
+  }
+
+  .dateplace{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .dateplace a{
+    color: white;
+  }
+
+  .schedule-container{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .table-container{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: block;
+    width: 100%;
+  }
+
+  .table{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .flex{
+    display: block;
+  }
+
+  .expositores-container{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .contact{
+    display: block;
+  }
+
+  .footer-container{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
 }

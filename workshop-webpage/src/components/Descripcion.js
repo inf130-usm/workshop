@@ -26,7 +26,7 @@ const Descripcion = () => {
                     En el workshop participarán connotados invitados internacional, tales como el Dr. Marijn Jenssen de la Universidad Delft de Tecnología (Nederlands), Dr. Tomasz Janowski de la Univ. Técnica de Gdansk (Polonia), la Dra. Lucy Temple, directora del proyecto ERASMUS+ sobre Smart Cities (SC), de la Universidad de Krems (Austria), y muchos otros importantes expertos europeos en el tema.
                 </p>
                 <p>
-                    El workshop tiene como objetivo convocar a los principales actores nacionales a nivel local y/o regional que tengan participación ya sea en la definición/implementación/ejecución/control de los proyectos relacionados con SC y/o participación en la toma de decisión de este tipo de proyectos a nivel público/privado.
+                    El workshop tiene como objetivo convocar a los principales actores nacionales a nivel local y/o regional que tengan participación ya sea en la definición / implementación / ejecución/ control de los proyectos relacionados con SC y/o participación en la toma de decisión de este tipo de proyectos a nivel público/privado.
                 </p>
                 <p>
                     Otro de los objetivos del workshop es entender los principales problemas en el desarrollo de SC, detectar actores y stakeholders, mostrar proyectos importantes, conocer fondos de financiamiento, etc.
