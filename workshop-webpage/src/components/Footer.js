@@ -1,7 +1,7 @@
 import React from 'react';
 import "../App.css";
 
-const Footer = () => {
+function Footer() {
     return (
         <>
         <div className='prefooter-container'></div>

@@ -13,23 +13,23 @@ import './App.css';
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
-    const handleScroll = () => {
+    function handleScroll() {
         const position = window.pageYOffset;
         setScrollPosition(position);
     };
 
-    useEffect(() => {
+    useEffect(function() {
         window.addEventListener("scroll", handleScroll);
-        return () => {
+        return function() {
         window.removeEventListener("scroll", handleScroll);
         };
     }, []);
   return (
     <>
-      { scrollPosition > 200 &&
+      {scrollPosition > 200 &&
       <div className='backtotop'>
         <Fab size="small" aria-label="scroll back to top">
-          <KeyboardArrowUpIcon onClick={() => {
+          <KeyboardArrowUpIcon onClick={function() {
             window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
           }} />
         </Fab>

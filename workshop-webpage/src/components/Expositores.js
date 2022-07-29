@@ -19,6 +19,7 @@ const expositoresleft = [
     createData("aurora-sanchez.jpg", "Aurora Sánchez Ortíz", "Universidad Católica del Norte, Chile"),
     createData("no-picture.png", "Pablo Bahamondes", ""),
     createData("ivan-poduje.jpg", "Ivan Poduje", ""),
+    createData("claudia-santiago.png", "Claudia Santiago", "Escuela Colombiana de Ingeniería, Colombia"),
 ];
 const expositoresright = [
     createData("marijn-janssen.jpg", "Marijn Janssen", "TU Delft, Nederlands"),
@@ -29,12 +30,12 @@ const expositoresright = [
     createData("edimara-luciano.jpg", "Edimara Luciano", "Pontifical Catholic University of the Rio Grande do Sul"),
     createData("rocio-muñoz.jpg", "Rocío Muñoz", "Universidad Nacional de La Plata"),
     createData("mauricio-solar.png", "Mauricio Solar", "Universidad Técnica Federico Santa María, Chile"),
-    createData("no-picture.png", "Sergio Zuñiga", ""),
+    createData("sergio-zuñiga.jpeg", "Sergio Zuñiga", ""),
     createData("no-picture.png", "Carlos Orellana", ""),
     createData("no-picture.png", "Lorena Santana", ""),
 ];
 
-const Expositores = () => {
+function Expositores() {
     return (
         <div className='body expositores-container' id="expositores">
             <Card variant='outlined' style={{backgroundColor: "#3b4a53", margin: "2rem"}}>
@@ -45,7 +46,7 @@ const Expositores = () => {
                     <div className='table-container'>
                         <div className='flex'>
                             <div className="table">
-                                {expositoresleft.map((expositor) => {
+                                {expositoresleft.map(function(expositor) {
                                     return(
                                         <div className="table-row">
                                             <div className='exp-picture-container' style={{"backgroundImage": `url("./exp-${expositor.picture}")`}}>
@@ -64,7 +65,7 @@ const Expositores = () => {
                                 })}
                             </div>
                             <div className="table">
-                                {expositoresright.map((expositor) => {
+                                {expositoresright.map(function(expositor) {
                                     return(
                                         <div className="table-row">
                                             <div className='exp-picture-container' style={{"backgroundImage": `url("./exp-${expositor.picture}")`}}>

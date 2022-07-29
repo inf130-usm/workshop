@@ -4,7 +4,7 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import "../App.css";
 
-const Contacto = () => {
+function Contacto () {
     return (
         <>
             <div className='dateplace-container' id='contacto'>

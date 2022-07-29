@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import "../App.css";
 
-const Descripcion = () => {
+function Descripcion () {
     const [showMore, setShowMore] = useState(false);
     const linestyle = {
         background: '#d3d3d3',
@@ -33,7 +33,7 @@ const Descripcion = () => {
                 </p>
                 <p>
                     Este tema transversal cubre temáticas técnicas como IA, data mining, ciberseguridad, sensores remotos, que son fundamentales para el desarrollo de SC, como también otras áreas como leyes, capacidad de gestión, urbanismo, transporte público, ciclovías, luminarias inteligentes, conectividad, movilidad, etc.
-                    {showMore ? <></> : <span className='readmore' onClick={() => {setShowMore(true)}}> ...Ver más</span>}
+                    {showMore ? <></> : <span className='readmore' onClick={function() {setShowMore(true)}}> ...Ver más</span>}
                 </p>
                 {showMore ?
                 <>
@@ -48,7 +48,7 @@ const Descripcion = () => {
                     </p>
                     <p>
                         Este tema transversal cubre temáticas técnicas como IA, data mining, ciberseguridad, sensores remotos, que son fundamentales para el desarrollo de SC, como también otras áreas como leyes, capacidad de gestión, urbanismo, transporte público, ciclovías, luminarias inteligentes, conectividad, movilidad, etc.
-                        <span className='readmore' onClick={() => {setShowMore(false)}}> ...Ver menos</span>
+                        <span className='readmore' onClick={function(){setShowMore(false)}}> ...Ver menos</span>
                     </p>
                 </>
                 :

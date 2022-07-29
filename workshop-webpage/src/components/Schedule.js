@@ -18,7 +18,7 @@ const rowsjuevesAM = [
 ];
 const rowsjuevesPM = [
     createData("12:10 - 14:00", "Lunch", ""),
-    createData("14:00 - 15:30", "Panel on curriculum development", "Lucy Temple, DUK - Ariel Pasini, UNLP - Gabriela Diaz, UNS - Daniel Benavides, ECI"),
+    createData("14:00 - 15:30", "Panel on curriculum development", "Lucy Temple, DUK - Ariel Pasini, UNLP - Gabriela Diaz, UNS - Claudia Santiago, ECI"),
     createData("15:30 - 16:00", "Movilidad inteligente ", "Carlos Orellana"),
     createData("16:00 - 17:00", "Train the trainers", "Magdalena Ciesielska, U. Técnica de Gdansk, Polonia - Elsa Estevez, UNLP, Argentina"),
     createData("17:00 - 17:15", "Coffe Break", ""),
@@ -29,7 +29,7 @@ const rowsviernesAM = [
     createData("09:00 - 09:45", "Governance in SC", "Tomasz Janowski, U. Técnica de Gdansk, Polonia"),
     createData("09:45 - 10:45", "Desafíos en urbanidad para una ciudad inteligente", "Iván Poduje"),
     createData("10:45 - 11:00", "Coffee Break", ""),
-    createData("11:00 - 12:30", "Panel on Teaching cases", "Edimara Luciano - Luis Daniel Benavides, UCI - Sabrina Callegaro, PUCRS - Rocio Muñoz, UNLP - Gabriela Diaz, UNS - Humberto Farias, UTFSM-ULS"),
+    createData("11:00 - 12:30", "Panel on Teaching cases", "Edimara Luciano, Sabrina Callegaro, PUCRS - Daniel Benavides, Claudia Santiago, UCI - Rocio Muñoz, UNLP - Gabriela Diaz, UNS - Humberto Farias, UTFSM-ULS"),
 ]
 
 const rowsviernesPM = [
@@ -37,11 +37,11 @@ const rowsviernesPM = [
     createData("14:00 - 14:30", "MOOC development + Showcase", "TUDelft + DUK"),
     createData("14:30 - 16:00", "SSC curriculum- applying concepts on undergraduate, specializations and masters in SSC", "Elsa Estevez, UNS - Mauricio Solar, UTFSM - Luiza Schuck Azambuja, Taltech - Aurora sanchez, UCN"),
     createData("16:00 - 16:15", "Coffee Break", ""),
-    createData("16:15 - 17:30", "Future development is SSC (Companies and Academia) Panel ", "Mauricio Solar, Marijin Jenssen, Elsa Estevez, Marco Peres, Iván Poduje, Lorena Santana"),
+    createData("16:15 - 17:30", "Future development is SSC (Companies and Academia) Panel ", "Mauricio Solar, Marijin Janssen, Elsa Estevez, Marco Peres, Iván Poduje, Lorena Santana"),
     createData("17:30 - 18:00", "Clausura", ""),
 ]
 
-const Schedule = () => {
+function Schedule () {
     let even = false;
     return (
         <div className='body schedule-container' id="programa">
@@ -64,7 +64,7 @@ const Schedule = () => {
                                         Participantes
                                     </div>
                                 </div>
-                                {rowsjuevesAM.map((row) => {
+                                {rowsjuevesAM.map(function(row) {
                                     even = !even;
                                     return(
                                         <div className={even ? "table-row even-row" : "table-row"}>
@@ -95,7 +95,7 @@ const Schedule = () => {
                                     </div>
                                 </div>
                                 {even = false}
-                                {rowsjuevesPM.map((row) => {
+                                {rowsjuevesPM.map(function(row) {
                                     even = !even;
                                     return(
                                         <div className={even ? "table-row even-row" : "table-row"}>
@@ -114,6 +114,7 @@ const Schedule = () => {
                             </div>
                         </div>
                         <p className='table-caption'>*Las charlas en inglés tendrán traducción simultánea al español.</p>
+                        <p className='table-caption'>Inscripciones gratuitas en: smartcity.inf.utfsm.cl</p>
                     </div>
                 </CardContent>
             </Card>
@@ -137,7 +138,7 @@ const Schedule = () => {
                                     </div>
                                 </div>
                                 {even = false}
-                                {rowsviernesAM.map((row) => {
+                                {rowsviernesAM.map(function(row){
                                     even = !even;
                                     return(
                                         <div className={even ? "table-row even-row" : "table-row"}>
@@ -168,7 +169,7 @@ const Schedule = () => {
                                     </div>
                                 </div>
                                 {even = false}
-                                {rowsviernesPM.map((row) => {
+                                {rowsviernesPM.map(function(row){
                                     even = !even;
                                     return(
                                         <div className={even ? "table-row even-row" : "table-row"}>
@@ -187,6 +188,7 @@ const Schedule = () => {
                             </div>
                         </div>
                         <p className='table-caption'>*Las charlas en inglés tendrán traducción simultánea al español.</p>
+                        <p className='table-caption'>Inscripciones gratuitas en: smartcity.inf.utfsm.cl</p>
                     </div>
                 </CardContent>
             </Card>

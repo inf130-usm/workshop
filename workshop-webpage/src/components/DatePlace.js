@@ -3,7 +3,7 @@ import EventIcon from '@mui/icons-material/Event';
 import PlaceIcon from '@mui/icons-material/Place';
 import "../App.css";
 
-const DatePlace = () => {
+function DatePlace () {
     return (
         <div className='dateplace-container' id="fechalugar">
             <div className='body dateplace-content'>

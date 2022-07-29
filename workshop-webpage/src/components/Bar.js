@@ -5,15 +5,16 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import "../App.css";
 
-const Bar = () => {
+function Bar () {
     const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+    const open = Boolean(anchorEl);
+
+    function handleClick (event) {
+        setAnchorEl(event.currentTarget);
+    } 
+    function handleClose (){
+        setAnchorEl(null);
+    }
     return (
         <div className='navbar' id='header'>
             <IconButton
