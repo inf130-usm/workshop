@@ -17,7 +17,7 @@ const expositoresleft = [
     createData("sabrina-callegaro.jpg", "Sabrina Callegaro", "Pontifical Catholic University of the Rio Grande do Sul"),
     createData("humberto-farias.jfif", "Humberto Farias", "Universidad Técnica Federico Santa María, Chile"),
     createData("aurora-sanchez.jpg", "Aurora Sánchez Ortíz", "Universidad Católica del Norte, Chile"),
-    createData("no-picture.png", "Pablo Bahamondes", ""),
+    createData("pablo-bahamondes.jpeg", "Pablo Bahamondes", "Gerente de Operaciones y Desarrollo"),
     createData("ivan-poduje.jpg", "Ivan Poduje", ""),
     createData("claudia-santiago.png", "Claudia Santiago", "Escuela Colombiana de Ingeniería, Colombia"),
 ];
@@ -26,12 +26,12 @@ const expositoresright = [
     createData("luiza-schuch.jpg", "Luiza Schuch de Azambuja", "U. de Tallin, Estonia"),
     createData("gabriela-diaz.jpg", "Gabriela Diaz", "Universidad Nacional del Sur"),
     createData("magdalena-ciesielska.jpg", "Magdalena Ciesielska", "U. Técnica de Gdansk, Polonia"),
-    createData("marco-peres.jpg", "Marco Peres", "Universidad Externado de Colombia"),
+    createData("marco-peres.png", "Marco Peres", "Universidad Externado de Colombia"),
     createData("edimara-luciano.jpg", "Edimara Luciano", "Pontifical Catholic University of the Rio Grande do Sul"),
     createData("rocio-muñoz.jpg", "Rocío Muñoz", "Universidad Nacional de La Plata"),
     createData("mauricio-solar.png", "Mauricio Solar", "Universidad Técnica Federico Santa María, Chile"),
-    createData("sergio-zuñiga.jpeg", "Sergio Zuñiga", ""),
-    createData("no-picture.png", "Carlos Orellana", ""),
+    createData("sergio-zuñiga.jpeg", "Sergio Zuñiga", "Gerente Comercial"),
+    createData("carlos-orellana.jpeg", "Carlos Orellana", "Ex gerente de ITS del Ministerio de Transporte"),
     createData("no-picture.png", "Lorena Santana", ""),
 ];
 
