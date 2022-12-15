@@ -13,7 +13,7 @@ const expositoresleft = [
     createData("ariel-pasini.jpg", "Ariel Pasini", "Universidad Nacional de La Plata"),
     createData("daniel-benavides.jpg", "Luis Daniel Benavides", "Escuela Colombiana de Ingeniería Julio Garavito"),
     createData("elsa-estevez.jpg", "Elsa Estévez", "Universidad Nacional de La Plata"),
-    createData("tomasz-janowski.jpg", "Tomasz Janowski", "U. Técnica de Gdansk, Polonia"),
+    createData("tomasz-janowski.jpg", "Tomasz Janowski", "Gdansk University of Technology, Poland and Danube University Krems, Austria"),
     createData("sabrina-callegaro.jpg", "Sabrina Callegaro", "Pontifical Catholic University of the Rio Grande do Sul"),
     createData("humberto-farias.jfif", "Humberto Farias", "Universidad Técnica Federico Santa María, Chile"),
     createData("aurora-sanchez.jpg", "Aurora Sánchez Ortíz", "Universidad Católica del Norte, Chile"),
